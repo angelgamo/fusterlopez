@@ -686,12 +686,12 @@
 						if ( window.matchMedia( '(max-width: 1024px)' ).matches && ( 'horizontal' == layout || 'vertical' == layout ) ) {
 							$( '.elementor-element-' + id + ' .hfe-nav-menu__toggle' ).trigger( "click" );
 							if ($this.hasClass( 'hfe-sub-menu-item' )) {
-								$( '.elementor-element-' + id + ' .hfe-menu-toggle' ).trigger( "click" );
+								// $( '.elementor-element-' + id + ' .hfe-menu-toggle' ).trigger( "click" );
 							}
 						} else {
 							if ($this.hasClass( 'hfe-sub-menu-item' )) {
 								_closeMenu( id );
-								$( '.elementor-element-' + id + ' .hfe-menu-toggle' ).trigger( "click" );
+								// $( '.elementor-element-' + id + ' .hfe-menu-toggle' ).trigger( "click" );
 							}
 							_closeMenu( id );
 						}
